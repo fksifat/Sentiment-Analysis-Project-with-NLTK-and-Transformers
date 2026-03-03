@@ -37,18 +37,21 @@ The dataset includes reviews with ratings from 1 to 5 stars, which can be used f
 ## Installation
 
 ### Prerequisites
+
 - Python 3.11+
 - pip or conda package manager
 
 ### Setup
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/fksifat/Sentiment-Analysis-Project-with-NLTK-and-Transformers.git
    cd "Sentiment Analysis Project with NLTK and Transformers"
    ```
 
 2. **Create a virtual environment**:
+
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -76,6 +79,7 @@ The dataset includes reviews with ratings from 1 to 5 stars, which can be used f
 ### Running the Notebook
 
 1. **Start Jupyter**:
+
    ```bash
    jupyter notebook
    ```
@@ -103,12 +107,14 @@ print(result)  # Output: [{'label': 'POSITIVE', 'score': 0.99}]
 ## Models & Approaches
 
 ### NLTK Approach
+
 - Lexicon-based sentiment analysis
 - VADER sentiment analyzer
 - Simple and interpretable results
 - Fast inference
 
 ### Transformer-Based Models
+
 - DistilBERT: Lightweight version of BERT
 - BERT: State-of-the-art contextual embeddings
 - RoBERTa: Robustly Optimized BERT
@@ -117,6 +123,7 @@ print(result)  # Output: [{'label': 'POSITIVE', 'score': 0.99}]
 ## Results & Metrics
 
 The notebook includes:
+
 - **Accuracy**: Overall correctness of predictions
 - **Precision & Recall**: For positive and negative classes
 - **F1-Score**: Harmonic mean of precision and recall
@@ -126,6 +133,7 @@ The notebook includes:
 ## Data Preprocessing
 
 The pipeline includes:
+
 1. **Text Cleaning**: Removal of HTML tags, special characters, and URLs
 2. **Lowercasing**: Standardization of text
 3. **Tokenization**: Breaking text into individual words/tokens
@@ -135,6 +143,7 @@ The pipeline includes:
 ## Contributing
 
 Contributions are welcome! Please feel free to:
+
 - Fork the repository
 - Create a feature branch
 - Submit pull requests with improvements
@@ -146,6 +155,7 @@ This project is open source and available under the MIT License.
 ## Author
 
 **Farhan Kabir Sifat**
+
 - GitHub: [@fksifat](https://github.com/fksifat)
 - Email: farhan017kabir@gmail.com
 
